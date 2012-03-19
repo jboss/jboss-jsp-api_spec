@@ -7,16 +7,16 @@
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
-    <version>8</version>
+    <version>9</version>
   </parent>
 
   <groupId>org.jboss.spec.javax.servlet.jsp</groupId>
   <artifactId>jboss-jsp-api_2.2_spec</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1.Final-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>JBoss Java Server Pages 2.2 API</name>
-  <description>The Java Server Pages 2.2 API classes</description>
+  <name>JavaServer(TM) Pages 2.2 API</name>
+  <description>JSR-000245: JavaServer(TM) Pages 2.2</description>
   
   <licenses>
     <license>
@@ -36,12 +36,12 @@
     <dependency>
       <groupId>org.jboss.spec.javax.el</groupId>
       <artifactId>jboss-el-api_2.2_spec</artifactId>
-      <version>1.0.0.Final</version>
+      <version>1.0.1.Final</version>
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.servlet</groupId>
       <artifactId>jboss-servlet-api_3.0_spec</artifactId>
-      <version>1.0.0.Final</version>
+      <version>1.0.1.Final</version>
     </dependency>
   </dependencies>
   
