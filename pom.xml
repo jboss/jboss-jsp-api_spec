@@ -10,12 +10,12 @@
   </parent>
 
   <groupId>org.jboss.spec.javax.servlet.jsp</groupId>
-  <artifactId>jboss-jsp-api_2.2_spec</artifactId>
-  <version>1.0.2.Final-SNAPSHOT</version>
+  <artifactId>jboss-jsp-api_2.3_spec</artifactId>
+  <version>1.0.0.Alpha1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>JavaServer(TM) Pages 2.2 API</name>
-  <description>JSR-000245: JavaServer(TM) Pages 2.2</description>
+  <name>JavaServer(TM) Pages 2.3 API</name>
+  <description>JSR-000245: JavaServer(TM) Pages 2.3</description>
 
   <licenses>
     <license>
@@ -80,12 +80,12 @@
             </manifest>
           </archive>
           <instructions>
-            <Specification-Title>JSR-000245: JavaServer(TM) Pages 2.2</Specification-Title>
+            <Specification-Title>JSR-000245: JavaServer(TM) Pages 2.3</Specification-Title>
             <Specification-Vendor>Oracle</Specification-Vendor>
-            <Specification-Version>2.2</Specification-Version>
+            <Specification-Version>2.3</Specification-Version>
             <!-- Set the package version to match the spec version -->
             <Export-Package>
-              javax.servlet.jsp*;version=2.2
+              javax.servlet.jsp*;version=2.3
             </Export-Package>
           </instructions>
         </configuration>
@@ -107,9 +107,9 @@
         <configuration>
           <archive>
             <manifestEntries>
-              <Specification-Title>JSR-000245: JavaServer(TM) Pages 2.2</Specification-Title>
+              <Specification-Title>JSR-000245: JavaServer(TM) Pages 2.3</Specification-Title>
               <Specification-Vendor>Oracle</Specification-Vendor>
-              <Specification-Version>2.2</Specification-Version>
+              <Specification-Version>2.3</Specification-Version>
             </manifestEntries>
           </archive>
         </configuration>
