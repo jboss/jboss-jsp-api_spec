@@ -568,8 +568,10 @@ public class ImplicitObjectELResolver extends ELResolver {
         
       // XXX - This probably needs to change, now that this is in a 
       // standard pkg.
+      // Yes this has to move as it is breaking the spring tags or changing the value of the string sAttributeName
+      // from org.apache.taglibs.standard.ImplicitObjects to org.apache.taglibs.standard.jsp.ImplicitObjects
       static final String sAttributeName = 
-        "org.apache.taglibs.standard.ImplicitObjects";
+        "org.apache.taglibs.standard.jsp.ImplicitObjects";
 
       //-------------------------------------
       // Member variables
